@@ -1,0 +1,9 @@
+:root {
+    --linear-gradient1: linear-gradient(to bottom, #fde0d5 , #fad8cc );
+    --linear-gradient2: linear-gradient(to bottom, #fde0d5 , #fad8cc, #ecb5a1 );
+    --white: #ffffff;
+    --primary-color: #c3887a;
+    --secondary-color: #e09e8e;
+    --font-family: "Cabin", sans-serif;
+
+}
