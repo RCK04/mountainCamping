@@ -10,6 +10,10 @@ body {
     overflow: hidden;
 }
 
+#toggle{
+    display: none;
+}
+
 .header, .main{
     padding: 0 5%;
     color: var(--primary-color);
@@ -74,7 +78,6 @@ body {
     text-transform: uppercase;
     font-size: 3rem;
     font-weight: 500;
-    /* margin-top: -10px; */
 }
 
 .main .home-content p{
@@ -98,4 +101,62 @@ body {
 
 .main .home-content button:hover{
     background-color: #f2ae9d;
+}
+
+.main .images .image-1,
+.main .images .image-2,
+.main .images .image-3,
+.main .images .image-4,
+.main .images .image-5,
+.main .images .image-6,
+.main .images .image-7{
+    width: 100%;
+    position: absolute;
+    left: 0;
+    z-index: -10;
+}
+
+.main .images .image-1{
+    background: url('../images/Layer.svg');
+    background-position: bottom;
+    background-size: cover;
+    bottom: -10%;
+    height: 120%;
+    clip-path: inset(0.55% 0 0 0);
+}
+
+.main .images .image-2{
+    background: url('../images/Hills.svg');
+    background-position: center;
+    background-size: cover;
+    bottom: 7%;
+    height: 100%;
+    clip-path: inset(0.35% 0 0 0);
+}
+
+.main .images .image-3{
+    background: url('../images/Hill.svg');
+    background-position: center;
+    background-size: cover;
+    bottom: 10%;
+    height: 90%;
+    clip-path: inset(0.35% 0 0 0);
+}
+
+.main .images .image-4{
+    background: url('../images/Sun.svg');
+    background-position: center;
+    background-size: cover;
+    bottom: 5%;
+    height: 80%;
+    clip-path: inset(0.35% 0 0 0);
+}
+
+.main .images .image-5{
+    background: url('../images/Background-hills.svg');
+    background-position: center;
+    background-size: cover;
+    bottom: 10%;
+    height: 100%;
+    clip-path: inset(0.35% 0 0 0);
 }
